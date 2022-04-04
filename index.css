@@ -1,0 +1,109 @@
+
+
+
+.logo{
+    position:fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    flex-direction: row;
+    left:0;
+    background-color: aliceblue;
+    justify-content: space-between;                                                        
+    width:100%;
+    padding: 10px 50px 10px 20px;
+}
+
+.daba{
+    display: flex;
+    align-self: flex-start;
+}
+body{
+    margin-top: 200px;
+    display: grid;
+    place-items:center;
+     background-color: #FBF8F1;
+}
+#header-img{
+    border-radius: 50%;
+}
+h1{
+    margin-top: 2rem;
+    font-size: 50px;
+    text-shadow: 2px 2px grey;
+}
+#nav-bar{
+    padding: 10px 200px 0px 0px;  
+    
+}
+.nav-link{
+    margin-right: 30px;
+}
+.nav-link:hover{
+    color: #f1c40f;
+}
+#form{
+    padding: 0px 20px;
+    min-height: 75px;
+   
+}
+#email{
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+#submit{
+    align-items:center;
+    background-color: #f1c40f;
+}
+
+.Product-description{
+   margin-top: 6%;
+   margin-bottom: 6%;
+}
+.Pricing{
+    display: flex;
+    
+    gap: 2.3vmin;
+    
+
+}
+.column {
+    width: 33.33%;
+    background-color: #EDEDED;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    
+  }
+.Quality{
+    max-width: 40%;
+    padding-top: 100px;    
+}
+a{
+    margin-right: 30px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    margin-top: 40px;
+    background-color:aliceblue;
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+   
+}
+
+@media screen and (min-width: 768px) {
+    .desc-video {
+      width: 500px;
+      height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .desc-video {
+      width: 100%;
+      height: auto;
+    }
+}  
